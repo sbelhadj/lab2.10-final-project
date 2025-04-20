@@ -146,7 +146,6 @@ La documentation est essentielle pour la maintenance du contrat et pour la compr
 Voici un exemple de documentation pour la fonction **deposit()** :
 
 ```markdown
-
 ### Fonction `deposit()`
 
 La fonction `deposit()` permet à un utilisateur de déposer de l'Ether dans le contrat.
@@ -168,7 +167,6 @@ La fonction `deposit()` permet à un utilisateur de déposer de l'Ether dans le 
 const depositTx = await contract.deposit({ value: ethers.utils.parseEther("1.0") });
 
 await depositTx.wait();
-
 ```
 
 #### **Sécurité :**
@@ -205,8 +203,6 @@ npx hardhat run scripts/deploy.js --network sepolia
 
 Vérifiez les transactions sur Sepolia Etherscan.  
  
-
-```markdown
 
 ---
 
